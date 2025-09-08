@@ -19,4 +19,4 @@ jobs:
           echo "Triggered by: ${{ github.event_name }}"
           echo "Repository: ${{ github.repository }}"
           echo "Actor: ${{ github.actor }}"
-          echo "Branch: ${{ github.env }}"
+          ls -lrt ${{ github.env }}"
